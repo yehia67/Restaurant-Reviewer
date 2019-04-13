@@ -1,0 +1,11 @@
+body {
+    background-color: #A3B29F
+}
+
+header {
+    text-align: center
+}
+
+.home {
+    background-image: url(../res/img/headerImg.jpg)
+}
