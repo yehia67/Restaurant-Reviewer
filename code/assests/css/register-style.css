@@ -1,0 +1,96 @@
+body {
+    background-color: rgba(227, 255, 219, 0.575);
+}
+
+
+/* Header */
+
+.header {
+    -moz-column-count: 2;
+    /* -moz-column-gap: 50%; */
+    -webkit-column-count: 2;
+    /* -webkit-column-gap: 50%; */
+    column-count: 2;
+    /* column-gap: 50%; */
+}
+
+.log-in-form {
+    list-style: none;
+    /* float: right; */
+}
+
+.form-div {
+    float: right;
+    padding: 10px 0px;
+    margin-right: 5%
+}
+
+.log-in-form li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.header {
+    background-color: #A3B29F;
+    padding: 0px 5px;
+    /* width: 100%; */
+    /* border: 5px solid black; */
+}
+
+
+/* .li #log-in-bottom {
+    size: 20px 20px;
+    color: aqua;
+} */
+
+
+/* Content  */
+
+.register-div {
+    /* -moz-column-count: 2; */
+    /* -moz-column-gap: 50%; */
+    /* -webkit-column-count: 2; */
+    /* -webkit-column-gap: 50%; */
+    /* column-count: 2; */
+    height: 80%;
+    /* column-gap: 50%; */
+    background-color: cadetblue;
+}
+
+.left-div {
+    float: left;
+    /* width: 50%; */
+}
+
+#body-img {
+    max-width: 50%;
+    height: auto;
+}
+
+.sign-up-div input {
+    margin: 5px 0px;
+}
+
+.sign-up-div {
+    max-width: 50%;
+    float: right;
+    height: 100%;
+    margin: 0px 20%;
+}
+
+h1 {
+    margin-left: 10%;
+}
+
+.sign-up-div input:not([id="first-name"]):not([id="last-name"]) {
+    width: 89%;
+    margin-left: 10%;
+    /* margin-right: 10%; */
+}
+
+#first-name,
+#last-name {
+    width: 39%;
+    margin-left: 10%;
+    /* margin-right: 5%; */
+}
