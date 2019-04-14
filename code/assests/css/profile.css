@@ -1,0 +1,78 @@
+body {
+    background-color: #A3B29F
+}
+
+.app {
+    margin: 2%
+}
+
+.app .navbar a {
+    float: right
+}
+
+.app .profile {
+    float: left;
+    width: 48%;
+    margin-left: 1%
+}
+
+.app .profile-info {
+    float: left;
+    width: 48%;
+    margin-left: 1%;
+    margin-top: 3%
+}
+
+.app h2 {
+    color: #ffff
+}
+
+.app .profile .profile-pic {
+    width: 500px
+}
+
+.app .profile .profile-review-no {
+    margin-left: 143px;
+    color: #ffff
+}
+
+.app .profile .profile-bottons {
+    margin-top: 15px
+}
+
+.app .profile .profile-bottons .seeReview-btn {
+    float: left;
+    width: 30%
+}
+
+.app .profile .profile-bottons .discoverReview-btn {
+    float: right;
+    width: 60%
+}
+
+.app .profile-info .info-box .info-title {
+    color: #ffff
+}
+
+.app .profile-info .info-box .info-title a {
+    font-weight: 100
+}
+
+.app .profile-info .info-box .label {
+    color: #ffff;
+    float: left;
+    width: 27%
+}
+
+.app .profile-info .info-box .input {}
+
+.app .profile-info .info-box form .info-password {}
+
+.app .profile-info .info-box form .submit-btn {
+    float: right;
+    margin-right: 34%
+}
+
+.clearfix {
+    clear: both;
+}

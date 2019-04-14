@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="mobile interpter">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="assests/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assests/css/profile.css">
     <link rel="stylesheet" type="text/css" href="assests/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <title>Profile Page</title>
@@ -14,6 +14,47 @@
 
     <!--APP-->
 
+    <div class="app">
+        <div class="navbar">
+            <a href="../index.html">Return to the Homepage >></a>
+        </div>
+        <div class="profile">
+            <h2>Welcome Back User!!</h2>
+            <img class="profile-pic" src="../assests/res/img/profile picture.png" alt="image not found"><br />
+            <span class="profile-review-no">No. Previous Reviews : 150 review</span>
+            <div class="profile-bottons">
+                <div class="seeReview-btn"> <button>See All my Reviews</button></div>
+                <div class="discoverReview-btn"> <button class="profile-btn">Discover More Reviews</button></div>
+            </div>
+        </div>
+        <div class="profile-info">
+            <div class="info-box">
+                <h3 class="info-title">Personal Info </h3>
+                <label class="label"> Full Name</label> <label class="input">My Full Name</label><br />
+                <label class="label"> Username</label> <label class="input">my username</label><br />
+                <label class="label"> email</label> <label class="input"> example@email.com</label> <input type="checkbox"> make my email visible <br />
+                <div class="name">
+
+                </div>
+            </div>
+
+            <div class="info-box">
+                <h3 class="info-title">Optional Info <a href="#">Edit</a></h3>
+                <label class="label"> Nationality</label> <label class="input">Egyptian</label><br />
+                <label class="label"> Address</label> <label class="input">my address at address</label><br />
+                <label class="label"> Postal Code</label> <label class="input"> 11502</label><br />
+            </div>
+
+            <div class="info-box">
+                <h3 class="info-title">Change Password</h3>
+                <form method="POST">
+                    <label class="label"> Old Password</label> <input class="info-password" type="password" /> <br />
+                    <label class="label"> New Password</label> <input class="info-password" type="password" /> <br />
+                    <label class="label"> Confirm New Password</label> <input class="info-password" type="password" /> <br />
+                    <input class="submit-btn" type="submit" value="Proceed" /> </form>
+            </div>
+        </div>
+    </div>
     <!--/APP-->
 
     <!--Scripts-->
