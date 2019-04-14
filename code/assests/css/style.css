@@ -1,11 +1,101 @@
 body {
-    background-color: #A3B29F
+    margin: 0;
+    background-color: #A3B29F;
+    padding: 0
 }
 
 header {
     text-align: center
 }
 
+header .home-title {
+    margin: 6px
+}
+
 .home {
-    background-image: url(../res/img/headerImg.jpg)
+    background-image: url(../res/img/headerImg.jpg);
+    height: 610px
+}
+
+.home-img {
+    display: block;
+    float: left;
+    margin-left: 40%
+}
+
+.auth {
+    float: right;
+    margin-right: 2%;
+    margin-top: 9px
+}
+
+.auth li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.auth li a {
+    color: #ffff
+}
+
+.auth .login {
+    padding: 11px;
+    border-radius: 7px;
+    background-color: #A3B29F
+}
+
+.auth .login a {
+    text-decoration: none;
+}
+
+.review-list {
+    color: #ffff
+}
+
+.review-list .review-list-title {
+    margin-left: 39px
+}
+
+.review-box {
+    float: left;
+    width: 14.4%;
+    margin-right: 1%;
+    margin-left: 1%;
+    text-align: center;
+    background-color: #A3B29F;
+}
+
+.review-box-list {
+    text-align: center;
+    margin-right: 20%;
+}
+
+.review-box-list li {
+    display: inline-block;
+}
+
+footer {
+    color: #ffff
+}
+
+.footer-title {
+    text-align: center;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 77px
+}
+
+.copyright {
+    text-align: center;
+    background-color: #848c82
+}
+
+.clearfix {
+    clear: both
 }
