@@ -48,6 +48,41 @@ header .home-title {
     text-decoration: none;
 }
 
+.login-content {
+    /*Hides pop-up content when there is no "active" class */
+    visibility: hidden;
+}
+
+.signup-content {
+    /*Hides pop-up content when there is no "active" class */
+    visibility: hidden;
+}
+
+.login-content.active,
+.signup-content .active {
+    /*Shows pop-up content when "active" class is present */
+    visibility: visible;
+}
+
+.open,
+.close {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 30px;
+    margin: .20rem;
+    font-size: 1rem;
+    color: #666666;
+    background: #ffffff;
+    border: 1px solid #666666;
+}
+
+.close:hover,
+.open:hover {
+    border: 1px solid #666666;
+    background: #666666;
+    color: #ffffff;
+}
+
 .review-list {
     color: #ffff
 }
