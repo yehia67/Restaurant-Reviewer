@@ -109,6 +109,11 @@ header .home-title {
     display: inline-block;
 }
 
+.see-more {
+    float: right;
+    margin-right: 16px
+}
+
 footer {
     color: #ffff
 }

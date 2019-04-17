@@ -38,6 +38,11 @@ h4 {
     margin-right: 2%;
 }
 
+.homepage-link {
+    float: right;
+    margin: 19px 14px 0px 0px
+}
+
 .review-box-list li {
     display: inline-block;
 }
