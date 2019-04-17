@@ -9,14 +9,23 @@ body {
 }
 
 .reviews-header-logo-div {
+    padding : 0;
     float : left;
-    margin-left : 2%;
-    margin-right : 2%
+    width : 30%;
+    margin-left : 0%;
+    margin-right : 0%
 }
 
 .reviews-header-title-div {
+    padding : 0;
     float : left;
-    margin-left : 25%
+    width : 35%;
+    margin-left : 1%;
+}
+
+h4 {
+    padding : 0;
+    text-align : center
 }
 
 .reviews-header-logo {
@@ -63,6 +72,14 @@ footer {
     text-align: center
 }
 
+.pages-navigator-list {
+    text-align : right;
+    margin-right : 5%
+}
+
+.pages-navigator-list li {
+    display : inline
+}
 
 .clearfix {
     clear: both
