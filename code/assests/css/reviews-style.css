@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    background-color: #A3B29F;
+    padding: 0
+}
+
+.reviews-header {
+    border-bottom : 2px solid rgb(95, 95, 95);
+}
+
+.reviews-header-logo-div {
+    float : left;
+    margin-left : 2%;
+    margin-right : 2%
+}
+
+.reviews-header-title-div {
+    float : left;
+    margin-left : 25%
+}
+
+.reviews-header-logo {
+    width : 100px;
+    height : 64px
+}
+
+.review-box-img-div {
+    float : left;
+    margin-right : 2%;
+}
+
+.review-box-list li {
+    display: inline-block;
+}
+
+h3 {
+    color : white
+}
+
+span {
+    color : white
+}
+
+footer {
+    color: #ffff;
+    background-color : rgb(130, 150, 125)
+}
+
+.footer-title {
+    text-align: center;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 77px
+}
+
+.copyright {
+    text-align: center
+}
+
+
+.clearfix {
+    clear: both
+}
