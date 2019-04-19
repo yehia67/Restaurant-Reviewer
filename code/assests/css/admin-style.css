@@ -69,3 +69,34 @@ body {
     background-color: #4aad30;
     cursor: pointer;
 }
+
+.control-box .box-form h4 {}
+
+.control-box .box-form h4,
+.user {
+    margin: 21px;
+}
+
+.control-box .box-form .search-form input {
+    height: 30px
+}
+
+.control-box .box-form .search-form button {
+    height: 29px
+}
+
+.control-box .box-form .search-form button i {}
+
+.control-box .box-form .user img {}
+
+.control-box .box-form .user h3 {}
+
+.control-box .box-form .user h6 {}
+
+.control-box .box-form .user .user-control {}
+
+.control-box .box-form .user .user-control li {}
+
+.control-box .box-form .user .user-control li i {}
+
+.control-box .box-form .user .user-control li input {}
