@@ -1,5 +1,7 @@
 body {
-    background-color: #A3B29F
+    background-color: #f3f5e7;
+    /* background-color: #ffffff; */
+    /* background-color: #A3B29F; */
 }
 
 .app {
@@ -24,7 +26,7 @@ body {
 }
 
 .app h2 {
-    color: #ffff
+    color: rgb(0, 0, 0);
 }
 
 .app .profile .profile-pic {
@@ -32,8 +34,9 @@ body {
 }
 
 .app .profile .profile-review-no {
-    margin-left: 143px;
-    color: #ffff
+    padding-top: 5px;
+    /* margin-left: 143px; */
+    color: rgb(0, 0, 0)
 }
 
 .app .profile .profile-bottons {
@@ -51,15 +54,22 @@ body {
 }
 
 .app .profile-info .info-box .info-title {
-    color: #ffff
+    color: #ffffff;
+    background-color: #759633;
+    padding-left: 5px;
 }
 
 .app .profile-info .info-box .info-title a {
-    font-weight: 100
+    font-weight: 100;
+    float: right;
+    padding-right: 5px;
+    text-decoration: none;
+    color: black;
 }
 
 .app .profile-info .info-box .label {
-    color: #ffff;
+    /* color: rgb(0, 0, 0); */
+    color: #313d18;
     float: left;
     width: 27%
 }
@@ -70,7 +80,7 @@ body {
 
 .app .profile-info .info-box form .submit-btn {
     float: right;
-    margin-right: 34%
+    /* margin-right: 2% */
 }
 
 .clearfix {
