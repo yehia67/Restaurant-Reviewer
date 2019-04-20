@@ -124,22 +124,88 @@ header {
 .login-content {
     /*Hides pop-up content when there is no "active" class */
     visibility: hidden;
+    width: 213px;
+    height: 124px;
+    background-color: #eeee;
+    border-radius: 5px;
+    position: relative;
+    left: 81%;
+    top: 11%;
+}
+
+.login-content h3 {}
+
+.login-content input {
+    margin-top: 12px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none
+}
+
+.login-content input[type=text] {}
+
+.login-content input[type=password] {}
+
+.login-content button {
+    margin-top: 8px;
+    border: none;
+    color: #fff;
+    height: 22px;
+    border-radius: 5px;
+}
+
+.login-content .cancle {
+    background-color: #F00;
+    margin-right: 41px
+}
+
+.login-content .go {
+    margin-left: 29px;
+    background-color: #0ed00e
 }
 
 .signup-content {
     /*Hides pop-up content when there is no "active" class */
     visibility: hidden;
-    /* color: #000000; */
+    background-color: #eeee;
+    width: 201px;
+    border-radius: 5px;
+    height: 275px;
+    position: relative;
+    left: 88%;
+    bottom: 11%
 }
 
 #signup-btn {
     color: #ffffff;
 }
 
+.signup-content input {
+    width: 153px;
+    margin: 7px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none
+}
+
+.signup-content button {
+    color: #ffff;
+    cursor: pointer;
+    border: none
+}
+
+.signup-content .go {
+    background-color: #0ed00e
+}
+
+.signup-content .cancle {
+    background-color: #F00;
+}
+
 .login-content.active,
-.signup-content .active {
+.signup-content.active {
     /*Shows pop-up content when "active" class is present */
-    visibility: visible;
+    visibility: visible !important;
 }
 
 .open,
