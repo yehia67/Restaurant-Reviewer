@@ -32,7 +32,7 @@ body {
     text-align: center
 }
 
-.admin-control .control-box .box-form form label {
+.admin-control .control-box .box-form form .logo-label {
     margin: 70px
 }
 
@@ -59,13 +59,15 @@ body {
     margin-left: 34px
 }
 
-.admin-control .control-box .box-form form .submit-btn {
+.admin-control .control-box .box-form form .submit-btn,
+.control-box .box-form .user .user-control li input {
     background-color: #A3B29F;
     border-radius: 5px;
     border: none
 }
 
-.admin-control .control-box .box-form form .submit-btn:hover {
+.admin-control .control-box .box-form form .submit-btn:hover,
+.control-box .box-form .user .user-control li input:hover {
     background-color: #4aad30;
     cursor: pointer;
 }
@@ -93,10 +95,77 @@ body {
 
 .control-box .box-form .user h6 {}
 
-.control-box .box-form .user .user-control {}
+.control-box .box-form .user .user-control {
+    list-style: none
+}
 
-.control-box .box-form .user .user-control li {}
+.control-box .box-form .user .user-control li {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 4px
+}
 
-.control-box .box-form .user .user-control li i {}
+.control-box .box-form .user .user-control li i {
+    cursor: pointer;
+}
 
-.control-box .box-form .user .user-control li input {}
+.control-box .box-form .user .user-control li input {
+    cursor: pointer;
+    height: 27px
+}
+
+.control-box .email-box {
+    text-align: left !important
+}
+
+.control-box .email-box h3 {}
+
+.control-box .email-box textarea {
+    margin-bottom: 11px;
+    border-radius: 5px;
+    resize: none
+}
+
+.control-box .email-box .to-lable {
+    font-size: 23px
+}
+
+.control-box .email-box .to-input {
+    margin: 6px !important;
+    width: 18px !important;
+    padding: 0 !important;
+    font-size: 28px
+}
+
+.control-box .email-box span {}
+
+.control-box .email-box h4 {
+    margin: 4px !important;
+}
+
+.control-box .email-box .date-box {
+    margin-top: 10px
+}
+
+.control-box .email-box .review-box {
+    margin-top: 10px
+}
+
+.control-box .email-box .date-box .date-label {}
+
+.control-box .email-box .date-box .date-input {
+    margin-left: 22px
+}
+
+.control-box .email-box .review-box .review-label {}
+
+.control-box .email-box .review-box .review-input {
+    margin-left: 14px
+}
+
+.control-box .email-box .push-btn {
+    position: relative;
+    left: 41px;
+    top: 20px
+}
