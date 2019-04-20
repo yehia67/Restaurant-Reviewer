@@ -17,6 +17,7 @@ body {
 
 .menu-items li {
     display: inline-block;
+    cursor: pointer
 }
 
 .menu-items li:hover {
