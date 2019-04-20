@@ -69,6 +69,8 @@ body {
     /* margin-left: 30% */
 }
 
+.review-box-img {}
+
 
 /* .reviews-header {
     border-bottom: 2px solid rgb(95, 95, 95);
@@ -102,6 +104,7 @@ h4 {
 .review-box-img-div {
     float: left;
     margin-right: 2%;
+    margin-top: 3%
 }
 
 .homepage-link {
@@ -116,6 +119,7 @@ h4 {
 .review-box-subtitle {
     color: #ffff;
     background-color: #759633;
+    margin-left: 12%;
 }
 
 .review-box-list li {
