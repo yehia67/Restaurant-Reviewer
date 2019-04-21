@@ -17,7 +17,9 @@ body {
 
 .menu-items li {
     display: inline-block;
-    cursor: pointer
+    cursor: pointer;
+    padding: 0.5% 0;
+    font-size: 14pt;
 }
 
 .menu-items li:hover {
@@ -85,9 +87,10 @@ header {
 .home-img {
     display: block;
     float: left;
-    margin-top: 5px;
+    margin-top: 0.5%;
     width: 15%;
     height: auto;
+    cursor: pointer;
     /* margin-left: 30% */
 }
 
@@ -181,6 +184,16 @@ header {
     background-color: #759633;
 }
 
+.review-box-img {
+    width: 100%;
+    height: auto;
+}
+
+.review-box h6 {
+    font-size: 14pt;
+    margin: 10%;
+}
+
 .review-box-list {
     text-align: center;
     margin-right: 20%;
@@ -192,7 +205,10 @@ header {
 
 .see-more {
     float: right;
-    margin-right: 16px
+    margin-right: 2.5%;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 2px;
 }
 
 footer {
@@ -206,11 +222,12 @@ footer {
 
 .social-links {
     text-align: center;
+    margin-left: 3%;
 }
 
 .social-links li {
     display: inline-block;
-    margin-right: 77px
+    margin-right: 6%;
 }
 
 .copyright {
