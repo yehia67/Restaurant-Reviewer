@@ -230,6 +230,34 @@ header {
     color: #ffffff;
 }
 
+.search-box {
+    position: relative;
+    bottom: 126px
+}
+
+.place-options {
+    width: 10%;
+    height: 7%;
+    border: 2px solid #fff;
+    border-radius: 5px
+}
+
+.search-box-text {
+    width: 30%;
+    height: 7%;
+    border: 2px solid #fff;
+    border-radius: 5px
+}
+
+.search-box-submit-btn {
+    width: 5%;
+    height: 7%;
+    color: #fff;
+    background-color: #759633;
+    border: 2px solid #759633;
+    border-radius: 5px
+}
+
 .review-list {
     color: #ffff
 }
@@ -300,29 +328,6 @@ footer {
     text-align: center;
     background-color: #000000;
     color: #ffffff;
-}
-
-.place-options {
-    width: 10%;
-    height: 7%;
-    border: 2px solid #fff;
-    border-radius: 5px
-}
-
-.search-box-text {
-    width: 30%;
-    height: 7%;
-    border: 2px solid #fff;
-    border-radius: 5px
-}
-
-.search-box-submit-btn {
-    width: 5%;
-    height: 7%;
-    color: #fff;
-    background-color: #759633;
-    border: 2px solid #759633;
-    border-radius: 5px
 }
 
 .clearfix {
