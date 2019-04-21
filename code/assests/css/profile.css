@@ -9,7 +9,14 @@ body {
 }
 
 .app .navbar a {
-    float: right
+    float: right;
+    text-decoration: none;
+    color: #313d18;
+    margin-right: 2%;
+}
+
+.app .navbar a:visited {
+    color: #313d18;
 }
 
 .app .profile {
@@ -30,7 +37,9 @@ body {
 }
 
 .app .profile .profile-pic {
-    width: 500px
+    /* width: 500px; */
+    width: 60%;
+    height: auto;
 }
 
 .app .profile .profile-review-no {
@@ -45,12 +54,17 @@ body {
 
 .app .profile .profile-bottons .seeReview-btn {
     float: left;
-    width: 30%
+    width: 20%
 }
 
 .app .profile .profile-bottons .discoverReview-btn {
     float: right;
-    width: 60%
+    width: 60%;
+    margin-right: 2%;
+}
+
+.profile-btn {
+    margin-right: 20%;
 }
 
 .app .profile-info .info-box .info-title {
