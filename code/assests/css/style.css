@@ -219,6 +219,33 @@ footer {
     color: #ffffff;
 }
 
+.search-box {
+    margin-top: 10%;
+}
+
+.place-options {
+    width: 10%;
+    height: 7%;
+    border: 2px solid #fff;
+    border-radius: 5px
+}
+
+.search-box-text {
+    width: 30%;
+    height: 7%;
+    border: 2px solid #fff;
+    border-radius: 5px
+}
+
+.search-box-submit-btn {
+    width: 5%;
+    height: 7%;
+    color: #fff;
+    background-color: #759633;
+    border: 2px solid #759633;
+    border-radius: 5px
+}
+
 .clearfix {
     clear: both
 }
