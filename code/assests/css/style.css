@@ -254,8 +254,13 @@ header {
     height: 7%;
     color: #fff;
     background-color: #759633;
+    cursor: pointer;
     border: 2px solid #759633;
     border-radius: 5px
+}
+
+.search-box-submit-btn:hover {
+    background-color: #a0e616
 }
 
 .review-list {
