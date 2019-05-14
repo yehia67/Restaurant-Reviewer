@@ -1,7 +1,5 @@
 body {
     background-color: #f3f5e7;
-    /* background-color: #ffffff; */
-    /* background-color: #A3B29F; */
 }
 
 .app {
@@ -47,17 +45,6 @@ body {
     background-color: #759633;
     color: white
 }
-
-
-/* .menu-items li a {
-    display: inline-block;
-    padding: 10px 50px;
-} */
-
-
-/* #home-button {
-    /* background-color: dimgray; 
-} */
 
 .menu-items a {
     display: inline-block;
@@ -110,7 +97,6 @@ body {
 
 .app .profile .profile-review-no {
     padding-top: 5px;
-    /* margin-left: 143px; */
     color: rgb(0, 0, 0)
 }
 
@@ -197,7 +183,6 @@ footer {
 
 .app .profile-info .info-box form .submit-btn {
     float: right;
-    /* margin-right: 2% */
 }
 
 .clearfix {

@@ -33,17 +33,6 @@ body {
     color: white
 }
 
-
-/* .menu-items li a {
-    display: inline-block;
-    padding: 10px 50px;
-} */
-
-
-/* #home-button {
-    /* background-color: dimgray; 
-} */
-
 .menu-items a {
     display: inline-block;
     padding: 10px 50px;
@@ -51,36 +40,15 @@ body {
     color: rgb(255, 255, 255);
 }
 
-
-/* .menu-items a:visited {
-    color: rgb(255, 0, 0);
-} */
-
-
-/* 
-.menu-items a:hover {
-    background-color: #759633;
-    /* background-color: black; */
-
 .menu-items li:active {
     background-color: rgb(0, 0, 0);
-    /* color: rgb(41, 231, 206); */
-    /* background-color: rgb(155, 40, 40); */
     color: white;
 }
 
 header {
     text-align: center;
-    /* background-color: rgb(116, 116, 116); */
     background-color: #666666;
 }
-
-
-/*header .home-title {
-    /* margin: 6px; 
-    color: #ffffff;
-    padding-top: 6px;
-}*/
 
 .home {
     background-image: url(../res/img/headerImg.jpg);
@@ -97,7 +65,6 @@ header {
     width: 15%;
     height: auto;
     cursor: pointer;
-    /* margin-left: 30% */
 }
 
 .auth-list {
@@ -107,13 +74,11 @@ header {
 .auth {
     float: right;
     margin-right: 2%;
-    /* margin-top: 9px */
 }
 
 .auth li {
     display: inline-block;
     margin-right: 30px;
-    /* margin-top: 5px; */
 }
 
 .auth li a {
@@ -128,6 +93,10 @@ header {
 
 .auth .login a {
     text-decoration: none;
+}
+
+.auth .login:hover {
+    background-color: #a0e616
 }
 
 .login-content {
@@ -160,6 +129,7 @@ header {
     border: none;
     color: #fff;
     height: 22px;
+    cursor: pointer;
     border-radius: 5px;
 }
 
@@ -229,10 +199,15 @@ header {
     border: 1px solid #666666;
 }
 
-.close:hover,
+.close:hover {
+    border: 1px solid #666666;
+    background-color: #ab1111;
+    color: #ffffff;
+}
+
 .open:hover {
     border: 1px solid #666666;
-    background: #666666;
+    background-color: #a0e616;
     color: #ffffff;
 }
 
@@ -244,7 +219,6 @@ header {
 .place-options {
     width: 10%;
     height: 7%;
-    border: 2px solid #fff;
     border-radius: 5px
 }
 
@@ -252,6 +226,7 @@ header {
     width: 30%;
     height: 7%;
     border: 2px solid #fff;
+    cursor: pointer;
     border-radius: 5px
 }
 
@@ -287,7 +262,6 @@ header {
     margin-right: 1%;
     margin-left: 1%;
     text-align: center;
-    /* background-color: #A3B29F; */
     background-color: #759633;
 }
 

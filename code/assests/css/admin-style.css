@@ -1,12 +1,12 @@
 body {
     margin: 0;
-    background-color: #A3B29F;
     padding: 0
 }
 
 .app {
-    height: 500px;
+    height: 628px;
     width: 1790px;
+    background-color: #A3B29F;
     margin: 0 auto
 }
 
@@ -46,17 +46,6 @@ body {
     color: white
 }
 
-
-/* .menu-items li a {
-    display: inline-block;
-    padding: 10px 50px;
-} */
-
-
-/* #home-button {
-    /* background-color: dimgray; 
-} */
-
 .menu-items a {
     display: inline-block;
     padding: 10px 50px;
@@ -77,15 +66,13 @@ body {
     margin-left: 23px
 }
 
-.admin-control {
-    margin: 9%
-}
+.admin-control {}
 
 .admin-control .control-box {
     float: left;
-    margin-right: 5%;
-    margin-left: 5%;
-    width: 341px
+    margin-right: 89px;
+    margin-left: 124px;
+    width: 362px
 }
 
 .admin-control .control-box .box-title {

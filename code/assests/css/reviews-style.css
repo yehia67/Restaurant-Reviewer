@@ -18,30 +18,15 @@ body {
     list-style: none;
     text-align: center;
     background-color: #666666;
-    /* background-color: rgb(53, 54, 148); */
     color: aliceblue;
     padding-right: 15%;
-    /* padding-bottom: 1%; */
-    /* box-shadow: 2px 2px rgba(0, 0, 0, 0.322); */
 }
 
 .menu-items li {
     display: inline-block;
     cursor: pointer;
     font-size: 14pt;
-    /* padding: 0.25% 0; */
 }
-
-
-/* .menu-items li a {
-    display: inline-block;
-    padding: 10px 50px;
-} */
-
-
-/* #home-button {
-    /* background-color: dimgray; 
-} */
 
 .menu-items a {
     display: inline-block;
@@ -50,21 +35,13 @@ body {
     color: rgb(255, 255, 255);
 }
 
-
-/* .menu-items a:visited {
-    color: rgb(255, 0, 0);
-} */
-
 .menu-items a:hover {
     background-color: #759633;
-    /* background-color: black; */
     color: white;
 }
 
 .menu-items a:active {
     background-color: rgb(0, 0, 0);
-    /* color: rgb(41, 231, 206); */
-    /* background-color: rgb(155, 40, 40); */
     color: white;
 }
 
@@ -74,30 +51,9 @@ body {
     margin-top: 0.5%;
     width: 15%;
     height: auto;
-    /* margin-left: 30% */
 }
 
 .review-box-img {}
-
-
-/* .reviews-header {
-    border-bottom: 2px solid rgb(95, 95, 95);
-}
-
-.reviews-header-logo-div {
-    padding: 0;
-    float: left;
-    width: 30%;
-    margin-left: 0%;
-    margin-right: 0%
-}
-
-.reviews-header-title-div {
-    padding: 0;
-    float: left;
-    width: 35%;
-    margin-left: 1%;
-} */
 
 h4 {
     padding: 0;
