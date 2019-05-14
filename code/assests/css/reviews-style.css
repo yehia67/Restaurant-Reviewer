@@ -4,6 +4,12 @@ body {
     padding: 0
 }
 
+.app {
+    height: 500px;
+    width: 1790px;
+    margin: 0 auto
+}
+
 .menu-items-div {
     width: 100%;
 }
@@ -105,8 +111,8 @@ h4 {
 
 .review-box-img-div {
     float: left;
-    margin-right: 2%;
-    margin-top: 3%
+    margin-right: 15px;
+    margin-top: 3px
 }
 
 .homepage-link {
@@ -121,7 +127,9 @@ h4 {
 .review-box-subtitle {
     color: #ffff;
     background-color: #759633;
-    margin-left: 16.5%;
+    border-radius: 5px;
+    margin-left: 224px;
+    margin-right: 13px
 }
 
 .review-box-list li {

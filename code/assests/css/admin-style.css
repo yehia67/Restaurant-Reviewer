@@ -4,6 +4,12 @@ body {
     padding: 0
 }
 
+.app {
+    height: 500px;
+    width: 1790px;
+    margin: 0 auto
+}
+
 
 /*NavBar*/
 
@@ -79,7 +85,7 @@ body {
     float: left;
     margin-right: 5%;
     margin-left: 5%;
-    width: 23%
+    width: 341px
 }
 
 .admin-control .control-box .box-title {
@@ -257,6 +263,7 @@ footer {
 
 .social-links li {
     display: inline-block;
+    cursor: pointer;
     margin-right: 6%;
 }
 

@@ -4,6 +4,12 @@ body {
     padding: 0
 }
 
+.app {
+    height: 500px;
+    width: 1790px;
+    margin: 0 auto
+}
+
 .menu-items-div {}
 
 .menu-items {
@@ -268,9 +274,11 @@ header {
 }
 
 .review-list .review-list-title {
-    /* margin-left: 39px; */
     padding-left: 39px;
     background-color: #759633;
+    width: 1733px;
+    margin-left: 25px;
+    border-radius: 5px;
 }
 
 .review-box {

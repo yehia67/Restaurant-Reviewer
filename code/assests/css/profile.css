@@ -5,7 +5,9 @@ body {
 }
 
 .app {
-    margin: 2%
+    height: 500px;
+    width: 1790px;
+    margin: 0 auto
 }
 
 
@@ -21,7 +23,9 @@ body {
     /* margin-left: 30% */
 }
 
-.menu-items-div {}
+.menu-items-div {
+    margin-top: -8px
+}
 
 .menu-items {
     list-style: none;
@@ -163,6 +167,7 @@ footer {
 
 .social-links li {
     display: inline-block;
+    cursor: pointer;
     margin-right: 6%;
 }
 
