@@ -95,6 +95,10 @@ body {
     height: auto;
 }
 
+#show {
+    cursor: pointer;
+}
+
 .app .profile .profile-review-no {
     padding-top: 5px;
     color: rgb(0, 0, 0)
@@ -117,6 +121,71 @@ body {
 
 .profile-btn {
     margin-right: 20%;
+    cursor: pointer;
+}
+
+
+/*Display Button Content*/
+
+.center {
+    margin: auto;
+    width: 1074px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow-y: scroll;
+    height: 500px
+}
+
+.hideform {
+    display: none;
+}
+
+.close {
+    cursor: pointer;
+}
+
+
+/*Review Box*/
+
+.reviews-header-logo {
+    width: 100px;
+    height: 64px
+}
+
+.review-box-img-div {
+    float: left;
+    margin-right: 15px;
+    margin-top: 3px
+}
+
+.review-box-img {
+    margin-right: 15px
+}
+
+.homepage-link {
+    float: right;
+    margin: 19px 14px 0px 0px
+}
+
+.review-box-location {
+    color: #759633;
+}
+
+.review-box-subtitle {
+    color: #ffff;
+    background-color: #759633;
+    border-radius: 5px;
+    margin-left: 243px;
+    margin-right: 34px
+}
+
+.review-box-list li {
+    display: inline-block;
+}
+
+h3 {
+    color: white;
+    padding: 10px
 }
 
 .app .profile-info .info-box .info-title {

@@ -18,6 +18,6 @@ $(".close").on("click", function() {
 });
 
 
-$(".close").on("click", function() {
+$(".close-cancle").on("click", function() {
     $(".signup-content").removeClass("active");
 })

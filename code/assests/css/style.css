@@ -188,7 +188,8 @@ header {
 }
 
 .open,
-.close {
+.close,
+.close-cancle {
     display: inline-block;
     vertical-align: middle;
     border-radius: 30px;
@@ -200,6 +201,12 @@ header {
 }
 
 .close:hover {
+    border: 1px solid #666666;
+    background-color: #ab1111;
+    color: #ffffff;
+}
+
+.close-cancle:hover {
     border: 1px solid #666666;
     background-color: #ab1111;
     color: #ffffff;
@@ -308,6 +315,7 @@ footer {
 
 .social-links li {
     display: inline-block;
+    cursor: pointer;
     margin-right: 6%;
 }
 
