@@ -6,7 +6,6 @@ body {
 .app {
     height: 628px;
     width: 1790px;
-    background-color: #A3B29F;
     margin: 0 auto
 }
 
@@ -61,12 +60,22 @@ body {
 
 /* NavBar*/
 
+.admin-panel {
+    text-align: center;
+}
+
+.admin-panel img {}
+
 .navbar {
     margin-top: 17px;
     margin-left: 23px
 }
 
 .admin-control {}
+
+.admin-control .admin-control-title {
+    margin-left: 723px
+}
 
 .admin-control .control-box {
     float: left;
@@ -77,7 +86,6 @@ body {
 
 .admin-control .control-box .box-title {
     text-align: center;
-    color: #eee
 }
 
 .admin-control .control-box .box-form {
