@@ -14,11 +14,10 @@ body {
 .home-img {
     display: block;
     float: left;
-    margin-top: 0.5%;
-    width: 15%;
+    margin-top: 20px;
+    width: 171px;
     height: auto;
-    cursor: pointer;
-    /* margin-left: 30% */
+    cursor: pointer
 }
 
 .menu-items-div {
@@ -30,8 +29,7 @@ body {
     text-align: center;
     background-color: #666666;
     color: aliceblue;
-    margin: 0;
-    padding-right: 15%;
+    margin: 0
 }
 
 .menu-items li {
@@ -48,9 +46,9 @@ body {
 
 .menu-items a {
     display: inline-block;
-    padding: 10px 50px;
     text-decoration: none;
     color: rgb(255, 255, 255);
+    padding: 18px
 }
 
 .menu-items li:active {
