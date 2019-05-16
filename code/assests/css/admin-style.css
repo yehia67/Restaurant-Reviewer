@@ -64,7 +64,9 @@ body {
     text-align: center;
 }
 
-.admin-panel img {}
+.admin-panel img {
+    width: 100%
+}
 
 .navbar {
     margin-top: 17px;
@@ -74,14 +76,14 @@ body {
 .admin-control {}
 
 .admin-control .admin-control-title {
-    margin-left: 723px
+    text-align: center
 }
 
 .admin-control .control-box {
     float: left;
-    margin-right: 89px;
-    margin-left: 124px;
-    width: 362px
+    margin-right: 16px;
+    margin-left: 5px;
+    width: 245.66px
 }
 
 .admin-control .control-box .box-title {

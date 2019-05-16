@@ -6,12 +6,24 @@ body {
 
 .app {
     height: 500px;
-    width: 1790px;
+    width: 800px;
     margin: 0 auto
 }
 
+
+/*NavBar*/
+
+.home-img {
+    display: block;
+    float: left;
+    margin-top: 20px;
+    width: 171px;
+    height: auto;
+    cursor: pointer
+}
+
 .menu-items-div {
-    width: 100%;
+    margin-top: -8px
 }
 
 .menu-items {
@@ -19,39 +31,35 @@ body {
     text-align: center;
     background-color: #666666;
     color: aliceblue;
-    padding-right: 15%;
+    margin: 0
 }
 
 .menu-items li {
     display: inline-block;
     cursor: pointer;
+    padding: 0.5% 0;
     font-size: 14pt;
+}
+
+.menu-items li:hover {
+    background-color: #759633;
+    color: white
 }
 
 .menu-items a {
     display: inline-block;
-    padding: 15px 50px;
     text-decoration: none;
     color: rgb(255, 255, 255);
+    padding: 18px
 }
 
-.menu-items a:hover {
-    background-color: #759633;
-    color: white;
-}
-
-.menu-items a:active {
+.menu-items li:active {
     background-color: rgb(0, 0, 0);
     color: white;
 }
 
-.home-img {
-    display: block;
-    float: left;
-    margin-top: 0.5%;
-    width: 15%;
-    height: auto;
-}
+
+/* NavBar*/
 
 h4 {
     padding: 0;
