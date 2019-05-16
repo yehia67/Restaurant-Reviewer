@@ -4,7 +4,7 @@ body {
 
 .app {
     height: 500px;
-    width: 1790px;
+    width: 800px;
     margin: 0 auto
 }
 
@@ -97,6 +97,7 @@ body {
 
 #show {
     cursor: pointer;
+    width: 89px
 }
 
 .app .profile .profile-review-no {
