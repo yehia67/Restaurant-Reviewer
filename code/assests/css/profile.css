@@ -143,6 +143,20 @@ body {
     cursor: pointer;
 }
 
+#closeBtn {
+    float: right;
+    color: white;
+    background-color: #F00;
+    border: none;
+    border-radius: 5;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#closeBtn:hover {
+    background-color: #d60909f7
+}
+
 
 /*Review Box*/
 

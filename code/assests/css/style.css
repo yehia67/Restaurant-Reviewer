@@ -238,13 +238,14 @@ header {
 }
 
 .search-box-submit-btn {
-    width: 5%;
-    height: 7%;
+    width: 58px;
+    height: 29px;
     color: #fff;
     background-color: #759633;
     cursor: pointer;
     border: 2px solid #759633;
-    border-radius: 5px
+    border-radius: 5px;
+    border: none
 }
 
 .search-box-submit-btn:hover {
