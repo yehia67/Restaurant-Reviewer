@@ -128,7 +128,7 @@ body {
 
 .center {
     margin: auto;
-    width: 1074px;
+    width: 800px;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     overflow-y: scroll;
@@ -204,7 +204,8 @@ h3 {
 .app .profile-info .info-box .info-title {
     color: #ffffff;
     background-color: #759633;
-    padding-left: 5px;
+    border-radius: 5px;
+    padding-left: 5px
 }
 
 .app .profile-info .info-box .info-title a {
